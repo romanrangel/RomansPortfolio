@@ -15,18 +15,17 @@ html {
 } */
 .jumbotron {
     background-color: black;
+    margin:0;
 }
 .navbar {
     background-color:rgb(255, 79, 79);
 }
 footer {
     background-color:rgb(255, 79, 79);
-    padding: 30px;
-    position: fixed;
-    top: 0px;
-}
-footertext {
+    /* padding: 10px;
+    text-align: center;
     color: white;
+    margin-top: 20px; */
 }
 /* #footeritems {
     margin: ;
