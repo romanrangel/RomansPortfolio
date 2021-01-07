@@ -1,6 +1,6 @@
-html {
-    background-color:rgb(255, 79, 79);
-}
+/* html {
+    background-color: black;
+} */
 .jumbotron {
     background-color: black;
     margin:0;
@@ -8,12 +8,8 @@ html {
 .navbar {
     background-color:rgb(255, 79, 79);
 }
-/* footer {
-    background-color:rgb(255, 79, 79);
-    margin: 0;
-} */
 .footer {
-    padding-top: 1%;
+    padding: 1%;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -27,4 +23,17 @@ html {
 .formfillout {
     padding: 2%;
     background-color: grey;
+}
+.img-fluid {
+    margin: 20px;
+}
+.jumboline {
+    background-color: red;
+}
+.form-label {
+    color: red;
+}
+.contactbutton {
+    background-color: red;
+    color: black;
 }
