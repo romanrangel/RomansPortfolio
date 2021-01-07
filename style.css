@@ -1,18 +1,6 @@
 html {
     background-color:rgb(255, 79, 79);
-    }
-/* html {
-    background: black;
-} */
-/* .card {
-    float: right;
 }
-#jumborow {
-    float: left;
-}
-#copyright {
-    text-align: center;
-} */
 .jumbotron {
     background-color: black;
     margin:0;
@@ -20,13 +8,23 @@ html {
 .navbar {
     background-color:rgb(255, 79, 79);
 }
-footer {
+/* footer {
     background-color:rgb(255, 79, 79);
-    /* padding: 10px;
-    text-align: center;
-    color: white;
-    margin-top: 20px; */
-}
-/* #footeritems {
-    margin: ;
+    margin: 0;
 } */
+.footer {
+    padding-top: 1%;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(255, 79, 79);
+    color: white;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+.formfillout {
+    padding: 2%;
+    background-color: grey;
+}
