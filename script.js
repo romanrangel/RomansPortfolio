@@ -1,4 +1,4 @@
-// var nav = document.getElementById('navbar-expand-lg');
+// var nav = document.getElementById('fixedNav');
 
 // window.onscroll = function () {
 
