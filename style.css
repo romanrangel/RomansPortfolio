@@ -67,22 +67,39 @@
         animation: fadeInUp 2s ease-in-out 0s forwards;
     };
 
-    /* #homeportrait {
-        transition: box-shadow, 2s;
-      }
-      
-      #homeportrait:hover {
-        box-shadow: 0px 4px 8px 0 #333;
-      } */
-/* ---------------------------------------------- */
-      /* .jumbotext { 
-        transition: background-color, 2s;
-      }
-      .jumbotext:active {
-        background-color: blue; 
-      }
-      .jumbotext:hover {
-        background-color: blue;
-      } */
+    /*overlay effect */
+
+  /* .imageport {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
   
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
   
+  .portfoliowebpages:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
